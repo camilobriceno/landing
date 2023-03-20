@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url('/landing/css/components/button.css');
+@import url('/landing/css/components/card.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner-section{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  justify-content: center;
+  align-items: center;
+  opacity: 0.99;
+}
+
+.container-banner{
+  /* position:relative; */
+  display: flex;
+  flex-direction: column;
+  color:white;
+  background-position: center;
+}
+
+.container-sections{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+.card img{
+  width: 70%;
+  height: 70%;
+  border-radius: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-section{
+  background-color: #2c2b2b;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.icons-media{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icons-media a{
+  margin-right: 20px;
+  font-size: 30px;
+  color: #1EDD88;
+}
+
+.footer-section p{
+  color: #6B6C6C;
+}
